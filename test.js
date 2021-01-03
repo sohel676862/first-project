@@ -252,25 +252,25 @@
 
 
 
-function largestOfFour(str) {
-    var largenUmeber = str.map(value => {
+// function largestOfFour(str) {
+//     var largenUmeber = str.map(value => {
 
-        var newlageNumber = value.reduce((previous, current) => {
-            if (current > previous) {
-                return current
-            }
-            return previous
-        })
-        return newlageNumber
+//         var newlageNumber = value.reduce((previous, current) => {
+//             if (current > previous) {
+//                 return current
+//             }
+//             return previous
+//         })
+//         return newlageNumber
 
 
-    })
-    return largenUmeber
-    console.log(largenUmeber)
-}
-console.log(largestOfFour([
-    [4, 5, 1, 3],
-    [13, 27, 18, 26],
-    [32, 35, 37, 39],
-    [1000, 1001, 857, 1]
-]))
+//     })
+//     return largenUmeber
+//     console.log(largenUmeber)
+// }
+// console.log(largestOfFour([
+//     [4, 5, 1, 3],
+//     [13, 27, 18, 26],
+//     [32, 35, 37, 39],
+//     [1000, 1001, 857, 1]
+// ]))
